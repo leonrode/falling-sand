@@ -9,6 +9,9 @@ A simulation of sand falling, written in C++ with the SFML Graphics library.
 This program creates a grid of squares, whose state can either be on or off, representing the presence or absence of sand in that given square. Each iteration, each square performs a check on the presence of squares in its vicinity, deciding where to move in the next iteration. These decisions are based on certain rules.
 </p>
 
+<h3>Demo</h3>
+
+![](falling-sand.gif)
 <h3>Rules</h3>
 <p>
 Each sand particle decides where to move based on these set of rules, tested each frame and in this particular order.  <i>The reason for this order is to try to prevent bias beacuse as soon as one test passes, the sand particle will not check the others.</i>
