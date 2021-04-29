@@ -1,3 +1,10 @@
+/*
+	SFML Falling Sand Simulation
+	Leon Rode - leon.rode13@gmail.com
+	Completed on April 29, 2021.
+	License: GNU GPL v3 - https://www.gnu.org/licenses/gpl-3.0.en.html
+*/
+
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include <cmath>
