@@ -23,6 +23,14 @@ Each sand particle decides where to move based on these set of rules, tested eac
 <li>  If the square below and to the right is vacant, occupy it next frame.</li>
 </ol>
 
+<h3>Controls</h3>
+<p>
+Place Sand - Left Mouse Button <br />
+Pause/Play - Right Mouse Button<br />
+"R" - Clear Screen
+
+</p>
+
 <h2>Installation</h2>
 <p>
 There is no binary to install, so just set up your SFML workspace as usual and copy the code in the <code>main.cpp</code> file.
